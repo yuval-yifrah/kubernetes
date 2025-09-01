@@ -30,6 +30,7 @@ chmod +x get_helm.sh
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 
 ## run the app
+enter the mini_kube_deployment directory  
 bash run_all.sh  
 
 
