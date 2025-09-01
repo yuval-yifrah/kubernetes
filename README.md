@@ -21,7 +21,8 @@ kubectl create secret docker-registry ecr-secret \
   --docker-server=992382545251.dkr.ecr.us-east-1.amazonaws.com \
   --docker-username=AWS \
   --docker-password=$PASSWORD \
-  -n wordpress  
+  -n wordpress
+
   
 ## download helm
 curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3  
